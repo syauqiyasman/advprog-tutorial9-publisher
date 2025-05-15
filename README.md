@@ -17,3 +17,11 @@ Ketika subscriber terkoneksi dengan RabbitMQ dan publisher mengirimkan data, mak
 ### Monitoring Chart Based on Publisher
 ![Monitoring chart based on publisher](image/MonitoringChartBasedOnPublisher.png)
 Grafik ungu pada message rate merupakan Consumer ACK (acknowledgement), yakni konfirmasi dari subscriber ke message broker bahwa pesan telah berhasil diterima dan diproses.
+
+## Bonus
+
+### Sending and Processing Event (Cloud)
+![Sending and processing event cloud](image/SendingAndProcessingEventCloud.png)
+
+### Monitoring Chart Based on Publisher
+![Monitoring chart based on publisher](image/MonitoringChartBasedOnPublisher.png)
