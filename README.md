@@ -23,5 +23,6 @@ Grafik ungu pada message rate merupakan Consumer ACK (acknowledgement), yakni ko
 ### Sending and Processing Event (Cloud)
 ![Sending and processing event cloud](image/SendingAndProcessingEventCloud.png)
 
-### Monitoring Chart Based on Publisher
-![Monitoring chart based on publisher](image/MonitoringChartBasedOnPublisher.png)
+### Monitoring Chart Based on Publisher (Cloud)
+![Monitoring chart based on publisher](image/MonitoringChartBasedOnPublisherCloud.png)
+Terdapat grafik kuning, yakni publisher membuat pesan dan mempublikasikannya.
