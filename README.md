@@ -13,3 +13,7 @@ URL amqp://guest:guest@localhost:5672 yang digunakan di program publisher dan su
 ### Sending and Processing Event
 ![Sending and processing event](image/SendingAndProcessingEvent.png)
 Ketika subscriber terkoneksi dengan RabbitMQ dan publisher mengirimkan data, maka subscriber akan menerima data yang dikirimkan publisher.
+
+### Monitoring Chart Based on Publisher
+![Monitoring chart based on publisher](image/MonitoringChartBasedOnPublisher.png)
+Grafik ungu pada message rate merupakan Consumer ACK (acknowledgement), yakni konfirmasi dari subscriber ke message broker bahwa pesan telah berhasil diterima dan diproses.
