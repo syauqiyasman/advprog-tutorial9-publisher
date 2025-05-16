@@ -25,13 +25,13 @@ fn main() {
         CrosstownBus::new_queue_publisher("amqps://pweimtbc:2Z-u-gYWyK96CV5kojvTRbA9evBe0Qd4@gerbil.rmq.cloudamqp.com/pweimtbc".to_owned(
         )).unwrap();
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
-        user_id: "1".to_owned(), user_name: "129500004y-Amir".to_owned() });
+        user_id: "1".to_owned(), user_name: "2306275752-Amir".to_owned() });
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
-        user_id: "2".to_owned(), user_name: "129500004y-Budi".to_owned() });
+        user_id: "2".to_owned(), user_name: "2306275752-Budi".to_owned() });
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
-        user_id: "3".to_owned(), user_name: "129500004y-Cica".to_owned() });
+        user_id: "3".to_owned(), user_name: "2306275752-Cica".to_owned() });
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
-        user_id: "4".to_owned(), user_name: "129500004y-Dira".to_owned() });
+        user_id: "4".to_owned(), user_name: "2306275752-Dira".to_owned() });
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
-        user_id: "5".to_owned(), user_name: "129500004y-Emir".to_owned() });
+        user_id: "5".to_owned(), user_name: "2306275752-Emir".to_owned() });
 }
